@@ -59,10 +59,9 @@ body{
   right: 0;
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .buzz_wrapper span, .thing{
     font-size:50px;
-
   }
 }
 
