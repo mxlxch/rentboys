@@ -7,14 +7,31 @@ body{
     height: 50px;
     padding-left: 15px;
     padding-right: 15px;
-    /* -webkit-filter: blur(0.5px);
-    filter: blur(0.5px); */
+    /* -webkit-filter: blur(1px);
+    filter: blur(1px); */
+}
+
+.logos {
+  margin-top: 25px;
+}
+
+/* ONLY BLUR LOGOS FOR CHROME WHICH DOES IT CORRECTLY */
+@media screen and (-webkit-min-device-pixel-ratio:0)
+  and (min-resolution:.001dpcm) {
+    .icon {
+      height: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      -webkit-filter: blur(0.5px);
+      filter: blur(0.5px);
+  }
 }
 
 .buzz_wrapper{
   position:relative;
   width:700px;
-  margin:0px auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color:#fff;
   overflow:hidden;
   /* padding:100px; */
