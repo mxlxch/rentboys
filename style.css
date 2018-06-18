@@ -29,7 +29,7 @@ body{
 
 .buzz_wrapper{
   position:relative;
-  width:700px;
+  /* width:700px; */
   margin-left: auto;
   margin-right: auto;
   background-color:#fff;
@@ -39,7 +39,7 @@ body{
 }
 .buzz_wrapper_small{
   position:relative;
-  width:700px;
+  /* width:700px; */
   margin:0px auto;
   background-color:#fff;
   overflow:hidden;
@@ -58,6 +58,14 @@ body{
   left: 0;
   right: 0;
 }
+
+@media (max-width: 600px) {
+  .buzz_wrapper span, .thing{
+    font-size:50px;
+
+  }
+}
+
 .credit {
   font-size: 24px;
 }
