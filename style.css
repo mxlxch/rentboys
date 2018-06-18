@@ -58,7 +58,30 @@ body{
 
 @media screen and (max-width: 600px) {
   .buzz_wrapper span, .thing{
-    font-size:50px;
+    font-size: 40px;
+  }
+
+  .credit {
+    font-size: 18px;
+  }
+
+  .buzz_wrapper {
+    height: 50px;
+  }
+
+  .buzz_wrapper_small {
+    height: 60px;
+    padding: 0px;
+    padding-top: 35px;
+    
+  }
+
+  .icon {
+    height: 35px;
+  }
+
+  body {
+    padding-top: 30px;
   }
 }
 
