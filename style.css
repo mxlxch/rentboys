@@ -3,6 +3,18 @@ body{
     text-align: center;
 }
 
+a {
+  color: unset;
+}
+
+a>div {
+  width: fit-content;
+}
+
+a>div:hover {
+  border-bottom: 5px solid #000;
+}
+
 .icon {
     height: 50px;
     padding-left: 15px;
